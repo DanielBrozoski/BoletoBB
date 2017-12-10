@@ -21,9 +21,9 @@ import javax.swing.JOptionPane;
  * @author aldir
  */
 public class BancoDeDados {
-    private static final String url = "jdbc:mysql://127.0.0.1:3306/test";
-    private static final String login = "root";
-    private static final String senha = "root";
+    private static final String url = "jdbc:mysql://127.0.0.1:3306/boletobb";
+    private static final String login = "brozoski";
+    private static final String senha = "@Federal5547155";
     private Connection connection = null;
     private PreparedStatement preparedStatement = null;
     private ResultSet resultSet = null;
